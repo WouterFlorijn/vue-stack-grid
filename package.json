@@ -1,0 +1,23 @@
+{
+  "name": "vue-stack-grid",
+  "version": "1.0.0",
+  "description": "Vue components for stack grid/waterfall/Pinterest type layouts.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Wouter Florijn",
+    "email": "woutermflorijn@gmail.com"
+  },
+  "license": "ISC",
+  "homepage": "https://github.com/WouterFlorijn/vue-stack-grid",
+  "repository": "WouterFlorijn/vue-stack-grid",
+  "keywords": [
+    "vue",
+    "grid",
+    "pinterest",
+    "stack",
+    "waterfall"
+  ]
+}
