@@ -65,6 +65,8 @@ Note that `gutter-width` and `gutter-height` can also be replaced by adding marg
 ## Future plans
 
  - Add events.
+ - Handle adding/removing items.
  - Add build system.
+ - Add demo.
  - Maybe include animation props (although this can be acomplished using style/class props).
- 
+
