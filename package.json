@@ -1,10 +1,11 @@
 {
   "name": "vue-stack-grid",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Vue components for stack grid/waterfall/Pinterest type layouts.",
-  "main": "dist/index.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npm install && webpack",
+    "watch": "webpack --watch"
   },
   "author": {
     "name": "Wouter Florijn",
@@ -19,5 +20,8 @@
     "pinterest",
     "stack",
     "waterfall"
-  ]
+  ],
+  "devDependencies": {
+    "vue-images-loaded": "^1.1.2"
+  }
 }
