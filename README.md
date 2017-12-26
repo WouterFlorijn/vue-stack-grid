@@ -1,10 +1,10 @@
 # vue-stack-grid
 
-Vue components for stack grid/waterfall/Pinterest type layouts. Inspired by https://github.com/tsuyoshiwada/react-stack-grid
+Vue components for stack grid/waterfall/Pinterest type layouts. Inspired by [react-stack-grid](https://github.com/tsuyoshiwada/react-stack-grid).
 
 ## Demo
 
-Coming soon. Please see https://github.com/tsuyoshiwada/react-stack-grid for an indication.
+Coming soon. Please see [react-stack-grid](https://github.com/tsuyoshiwada/react-stack-grid) for an indication of the features.
 
 ## Installation
 
@@ -69,4 +69,4 @@ Note that `gutter-width` and `gutter-height` can also be replaced by adding marg
  - Add build system.
  - Add demo.
  - Maybe include animation props (although this can be acomplished using style/class props).
-
+ - **Please make feature requests if you have any!**
