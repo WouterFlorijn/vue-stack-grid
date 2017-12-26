@@ -36,7 +36,7 @@
     },
     mounted() {
       window.addEventListener('resize', this.reflow)
-      window.setTimeout(this.reflow, 10)
+      this.update()
     },
     methods: {
       updateColumnData() {
@@ -66,6 +66,9 @@
             h: 0
           })
         return cols
+      },
+      update() {
+        this.$nextTick(this.reflow)
       },
       reflow() {
         this.updateColumnData()

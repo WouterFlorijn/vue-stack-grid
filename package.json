@@ -1,7 +1,7 @@
 {
   "name": "vue-stack-grid",
-  "version": "1.0.0",
-  "description": "Vue components for stack grid/waterfall/Pinterest type layouts.",
+  "version": "1.0.2",
+  "description": "Vue components for stack grid/waterfall/Pinterest type layouts. Lightweight, reactive and responsive.",
   "main": "index.js",
   "scripts": {
     "build": "npm install && webpack",
@@ -21,7 +21,7 @@
     "stack",
     "waterfall"
   ],
-  "devDependencies": {
+  "dependencies": {
     "vue-images-loaded": "^1.1.2"
   }
 }
