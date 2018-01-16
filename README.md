@@ -21,13 +21,11 @@ npm install --save vue-stack-grid
 ```vue
 <template>
   <div>
-    <div class="row column">
-      <stack :column-min-width="320" :gutter-width="8" :gutter-height="8">
-        <stack-item v-for="(item, i) in items" :key="i">
-          {{ item.someContent }}
-        </stack-item>
-      </stack>
-    </div>
+    <stack :column-min-width="320" :gutter-width="8" :gutter-height="8">
+      <stack-item v-for="(item, i) in items" :key="i">
+        {{ item.someContent }}
+      </stack-item>
+    </stack>
   </div>
 </template>
 
@@ -47,7 +45,7 @@ For animation, simply add `style="transition: left 300ms, top 300ms"` to the `st
 
 ### With images
 
-If images appear anywhere in the stack items, apply the `monitor-images-loaded` prop to the `stack`.
+If images appear anywhere in the stack items, apply the `monitor-images-loaded` prop to the `stack` component.
 
 ## Props
 
