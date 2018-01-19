@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import { Stack, StackItem } from 'vue-stack-grid'
+import { Stack, StackItem } from '../../'
 
 export default {
   components: { Stack, StackItem },
