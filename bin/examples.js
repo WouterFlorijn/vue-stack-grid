@@ -17,6 +17,6 @@ inquirer.prompt([{
   message: 'Which example would you like to run?',
   choices: dirs.map(dir => dir.replace(`${EX_DIR}/`, ''))
 }])
-  .then(r => execSync(`./node_modules/.bin/poi ${join(EX_DIR, r.ex)}`, { stdio: [0, 1, 2] }))
+  .then(r => execSync(`poi ${r.ex}`, { stdio: [0, 1, 2] }))
   // swallow child exit exceptions
   .catch(() => process.exit(0))

@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <h1>Vue Stack Grid</h1>
-    <stack :column-min-width="300" :gutter-width="15" :gutter-height="15" :monitor-images-loaded="true">
+    <stack :column-min-width="300" :gutter-width="15" :gutter-height="15" monitor-images-loaded>
       <stack-item class="img-container" v-for="(item, i) in images" :key="i">
         <img :src="`https://via.placeholder.com/${item}`">
       </stack-item>
@@ -85,7 +85,8 @@ export default {
 .img-container img {
   display: block;
   margin: 0;
-  min-width: 100%;
+  width: 100%;
+  height: auto;
 }
 
 .img-container figcaption {
