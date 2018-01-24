@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "npm install && webpack",
-    "watch": "webpack --watch"
+    "watch": "webpack --watch",
+    "examples": "node bin/examples"
   },
   "author": {
     "name": "Wouter Florijn",
@@ -23,5 +24,9 @@
   ],
   "dependencies": {
     "vue-images-loaded": "^1.1.2"
+  },
+  "devDependencies": {
+    "inquirer": "^5.0.0",
+    "poi": "^9.6.12"
   }
 }

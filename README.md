@@ -60,6 +60,9 @@ If images appear anywhere in the stack items, apply the `monitor-images-loaded` 
 
 Note that `gutter-width` and `gutter-height` can also be replaced by adding margin/padding to the stack items.
 
+## Examples
+Clone the repository and run: `npm run examples`
+
 ## Future plans
 
  - Add events.
