@@ -1,5 +1,5 @@
 <template>
-  <div class="container" ref="container" v-images-loaded="imagesLoaded">
+  <div class="vsg-container" ref="container" v-images-loaded="imagesLoaded">
     <slot></slot>
   </div>
 </template>
@@ -112,8 +112,8 @@
   }
 </script>
 
-<style>
-  .container {
+<style scoped>
+  .vsg-container {
     display: block;
     position: relative;
     width: 100%;

@@ -1,5 +1,5 @@
 <template>
-	<div class="stack-item">
+	<div class="vsg-stack-item">
 		<slot></slot>
 	</div>
 </template>
@@ -9,7 +9,7 @@
 </script>
 
 <style>
-	.stack-item {
+	.vsg-stack-item {
 		position: absolute;
 	}
 </style>
