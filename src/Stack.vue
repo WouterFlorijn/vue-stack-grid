@@ -38,6 +38,9 @@
       window.addEventListener('resize', this.reflow)
       this.update()
     },
+    destroyed() {
+      window.removeEventListener('resize', this.reflow)
+    },
     methods: {
       updateColumnData() {
         this.containerWidth = this.getContainerWidth()
