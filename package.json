@@ -26,7 +26,7 @@
     "vue-images-loaded": "^1.1.2"
   },
   "devDependencies": {
-    "inquirer": "^5.2.0",
-    "poi": "^9.6.13"
+    "inquirer": "^6.3.1",
+    "poi": "^12.6.10"
   }
 }

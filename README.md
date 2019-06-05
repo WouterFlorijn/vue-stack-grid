@@ -41,7 +41,7 @@ npm install --save vue-stack-grid
 
 ### With animation
 
-For animation, simply add `style="transition: left 300ms, top 300ms"` to the `stack-item`s.
+For animation, simply add `style="transition: transform 300ms"` to the `stack-item`s.
 
 ### With images
 
@@ -65,9 +65,7 @@ Clone the repository and run: `npm run examples`
 
 ## Future plans
 
- - Add events.
  - Handle adding/removing items.
  - Add build system.
  - Add demo.
- - Maybe include animation props (although this can be acomplished using style/class props).
  - **Please make feature requests if you have any!**

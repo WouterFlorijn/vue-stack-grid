@@ -77,8 +77,14 @@
         this.updateColumnData()
         let cols = this.getBaseColumns()
 
+        this.$emit('reflow', {
+          containerWidth: this.containerWidth,
+          columnCount: this.columnCount,
+          columnWidth: this.columnWidth,
+        })
+
         this.$children.forEach((child, i) => {
-          child.$el.style.width = this.columnWidth + "px"
+          child.$el.style.width = this.columnWidth + 'px'
 
           let n = 0
           if (i < this.columnCount)
@@ -95,16 +101,17 @@
             })
           }
 
-          child.$el.style.left = cols[n].x + "px"
-          child.$el.style.top = cols[n].h + "px"
+          child.$el.style.transform = 'translate(' + cols[n].x + 'px, ' + cols[n].h + 'px)'
           cols[n].h += child.$el.offsetHeight + this.gutterHeight
         })
 
         let containerHeight = 0
         cols.forEach(col => containerHeight = Math.max(containerHeight, col.h))
-        this.$el.style.height = containerHeight + "px"
+        this.$el.style.height = containerHeight + 'px'
       },
       imagesLoaded() {
+        this.$emit('images-loaded')
+
         if (this.monitorImagesLoaded)
           this.reflow()
       }

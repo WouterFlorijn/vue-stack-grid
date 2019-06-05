@@ -4,12 +4,10 @@
 	</div>
 </template>
 
-<script>
-
-</script>
-
-<style>
+<style scoped>
 	.vsg-stack-item {
 		position: absolute;
+		top: 0;
+		left: 0;
 	}
 </style>
