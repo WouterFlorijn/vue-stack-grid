@@ -1,5 +1,5 @@
 <template>
-  <div class="vsg-container" ref="container" v-images-loaded="imagesLoaded">
+  <div class="vsg-container" ref="container" v-images-loaded:on.progress="imagesLoaded">
     <slot></slot>
   </div>
 </template>
