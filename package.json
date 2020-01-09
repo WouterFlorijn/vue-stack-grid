@@ -4,7 +4,7 @@
   "description": "Vue components for stack grid/waterfall/Pinterest type layouts. Lightweight, reactive and responsive.",
   "main": "index.js",
   "scripts": {
-    "build": "npm install && webpack",
+    "build": "webpack",
     "watch": "webpack --watch",
     "examples": "node bin/examples"
   },
@@ -26,9 +26,14 @@
     "vue-images-loaded": "^1.1.2"
   },
   "devDependencies": {
-    "inquirer": "^6.3.1",
-    "poi": "^12.6.10",
-    "vue": "^2.6.10",
-    "vue-template-compiler": "^2.6.10"
+    "css-loader": "^3.4.1",
+    "inquirer": "^7.0.3",
+    "poi": "^12.7.5",
+    "vue": "^2.6.11",
+    "vue-loader": "^15.8.3",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
   }
 }
