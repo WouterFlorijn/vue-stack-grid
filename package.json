@@ -1,6 +1,6 @@
 {
   "name": "vue-stack-grid",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Vue components for stack grid/waterfall/Pinterest type layouts. Lightweight, reactive and responsive.",
   "main": "index.js",
   "scripts": {
