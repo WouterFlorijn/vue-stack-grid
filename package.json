@@ -26,9 +26,9 @@
     "vue-images-loaded": "^1.1.2"
   },
   "devDependencies": {
-    "inquirer": "^6.3.1",
-    "poi": "^12.6.10",
-    "vue": "^2.6.10",
-    "vue-template-compiler": "^2.6.10"
+    "inquirer": "^7.1.0",
+    "poi": "^12.8.0",
+    "vue": "^2.6.11",
+    "vue-template-compiler": "^2.6.11"
   }
 }
