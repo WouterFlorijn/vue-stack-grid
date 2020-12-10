@@ -48,7 +48,7 @@
         this.columnWidth = this.getColumnWidth()
       },
       getContainerWidth() {
-        return this.$refs.container.clientWidth
+        return this.$refs.container ? this.$refs.container.clientWidth : 0
       },
       getColumnCount() {
         for (let i = 1; true; i++)
